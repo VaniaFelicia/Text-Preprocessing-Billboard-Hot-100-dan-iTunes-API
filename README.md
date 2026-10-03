@@ -12,7 +12,7 @@ Preprocessing teks dari hasil scraping sebelumnya:
 Tahapan preprocessing: hapus tag HTML, hashtag, URL/email, tanda baca, dan emoji; lowercasing; stemming (Porter); hapus stopword. Hasil divisualisasikan dengan WordCloud sebelum dan sesudah preprocessing.
 
 Isi Repository
-- Text_Preprocessing.ipynb: notebook utama
-- Song_Preprocessed.csv: dataset hasil preprocessing
+- Text_Preprocessing_(Chapter 4).ipynb: notebook utama
+- [Song_Preprocessed.csv](Song_Preprocessed.csv): dataset hasil preprocessing
 
 Note: Buka notebook di Google Colab, lalu jalankan semua sel secara berurutan. Library yang dibutuhkan: requests, beautifulsoup4, pandas, nltk, wordcloud, matplotlib, demoji.
